@@ -5,6 +5,11 @@
   
 <configuration>
 	<typeAliases>
-		<package name="com.uu.ssm.entity"/>
+		<package name="entity"/>
 	</typeAliases>
+	
+	<mappers>
+	    <mapper resource="map/UserDao.xml"/>
+	</mappers>
+	
 </configuration>
